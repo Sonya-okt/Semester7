@@ -63,3 +63,20 @@ plt.ylabel('Tenure')
 plt.tight_layout()
 
 desc_stats
+
+"""
+Pembersihan Data:
+
+    Menghilangkan kolom yang tidak berguna (semua nilai NaN) dan kolom 'customerID'.
+    Mengkonversi 'TotalCharges' ke tipe numerik dan menghilangkan baris dengan nilai NaN pada kolom ini.
+
+EDA - Statistik Deskriptif: Menghasilkan statistik deskriptif untuk setiap kolom.
+EDA - Visualisasi:
+
+    Membuat plot untuk distribusi churn.
+    Membuat heatmap untuk melihat korelasi antar fitur, terutama terhadap 'Churn'.
+    Membuat boxplot untuk membandingkan 'MonthlyCharges' dan 'tenure' antara pelanggan yang churn dan yang tidak.
+
+Menampilkan Plot: Menampilkan semua plot yang telah dibuat.
+Mengembalikan Statistik Deskriptif: Menampilkan ringkasan statistik dari dataset.
+"""
